@@ -60,11 +60,13 @@ jobs:
           haxelib install hscript --quiet
           haxelib install extension-webview --quiet
           haxelib git faxe https://github.com/uhrobots/faxe --quiet
+          haxelib git AndroidTools https://github.com/Sirox228/AndroidTools.git
           haxelib git linc_luajit https://github.com/Daninnocent/linc_luajit.git --quiet
           haxelib git polymod https://github.com/MasterEric/polymod.git --quiet
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc --quiet
           haxelib git extension-webm https://github.com/Sirox228/extension-webm --quiet
           haxelib install actuate 
+          haxelib install AndroidTools https://github.com/Sirox228/AndroidTools
           haxelib list
           
       - name: Build Log
