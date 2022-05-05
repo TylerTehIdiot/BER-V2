@@ -59,7 +59,7 @@ jobs:
           haxelib install flixel-addons 2.10.0 --quiet
           haxelib install hscript --quiet
           haxelib install extension-webview --quiet
-          haxelib install extension-androidtools https://github.com/jigsaw-4277821/extension-androidtools --quiet
+          haxelib install AndroidTools https://github.com/jigsaw-4277821/extension-androidtools --quiet
           haxelib git faxe https://github.com/uhrobots/faxe --quiet
           haxelib git linc_luajit https://github.com/Daninnocent/linc_luajit.git --quiet
           haxelib git polymod https://github.com/MasterEric/polymod.git --quiet
